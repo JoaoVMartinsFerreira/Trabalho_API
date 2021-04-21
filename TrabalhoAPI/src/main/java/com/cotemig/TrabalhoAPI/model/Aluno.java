@@ -1,4 +1,4 @@
-package com.cotemig.TrabalhoAPI.aluno;
+package com.cotemig.TrabalhoAPI.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -33,9 +33,6 @@ public class Aluno {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	private void teste() {
-		// TODO Auto-generated method stub
-
-	}
+	
 	
 }
